@@ -2,7 +2,7 @@ name := "scala-naive-bayes"
 
 version := "1.0"
 
-scalaVersion := "2.12.3"
+scalaVersion := "2.10.5"
 
 libraryDependencies ++= Seq(
   "org.json4s" %% "json4s-native" % "3.2.10",
