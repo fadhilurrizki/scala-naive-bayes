@@ -28,12 +28,6 @@ object Main {
 
     val pred = NaiveBayes.predictAll(token_test)
 
-    println("label pred")
-    println(pred)
-
-    println("label test")
-    println(label_test)
-
     val acc = Performance.accuracy(pred, label_test)
 
     println(acc)
